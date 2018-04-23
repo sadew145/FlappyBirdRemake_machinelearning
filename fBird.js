@@ -19,7 +19,7 @@ function setup(){
             if (walls.length !== 0) {
                 if (bird.isTouched(walls[0].X, walls[0].X +20 , walls[0].getY(), walls[0].getY() + walls[0].getSpace())    ) {
                     clearInterval(interval);
-                    location.reload();
+                    //location.reload();
                 }
             }
             fps++;
